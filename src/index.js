@@ -69,9 +69,9 @@ async function fetchData() {
 }
 
 app.get("/", async function (req, res) {
-	const frequencyArray = await fetchData();
-	res.send(frequencyArray);
-	// res.send("122");
+// 	const frequencyArray = await fetchData();
+// 	res.send(frequencyArray);
+	res.send("122");
 });
 
 app.listen(port, () => {
